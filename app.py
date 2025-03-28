@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('timelytics_model2.pkl')
 
 # Streamlit UI
-st.title("Timelytics: Delivery Time Prediction")
+st.title("DelivX: Delivery Time Prediction")
 st.write("Provide the order details to predict the expected delivery time.")
 
 # Input fields
